@@ -1,0 +1,8 @@
+version: "2"
+services:
+  itop:
+    image: vbkunin/itop:2.4.0-beta
+    ports:
+      - "80:80"
+    volumes:
+      - ./itop-extensions:/app/extensions
